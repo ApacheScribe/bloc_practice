@@ -1,1 +1,1 @@
-A simple command-line application.
+ Practice using bloc with pure Dart;
