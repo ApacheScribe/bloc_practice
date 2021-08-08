@@ -1,17 +1,17 @@
-import 'package:counter/bloc/CounterCubit.dart';
-import 'package:counter/ui/counter/pages/views/view1.dart';
+import 'package:counter/counter/bloc/CounterCubit.dart';
+import 'package:counter/counter/ui/views/counter_view.dart';
 import 'package:flutter/widgets.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
-class CounterPage1 extends StatelessWidget {
-  const CounterPage1({Key? key}) : super(key: key);
+class CounterPage extends StatelessWidget {
+  const CounterPage({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
     return BlocProvider(
       create: (_) => CounterCubit(),
       child: Container(
-        child: CounterView1(),
+        child: CounterView(),
       ),
     );
   }
