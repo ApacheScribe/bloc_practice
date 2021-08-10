@@ -13,8 +13,8 @@ class TimerStarted extends TimerEvent {
 }
 
 // TimerPaused — informs the TimerBloc that the timer should be paused.
-class TimerPaused extends TimerEvent {
-  const TimerPaused();
+class TimerPause extends TimerEvent {
+  const TimerPause();
 }
 
 // TimerResumed — informs the TimerBloc that the timer should be resumed.
